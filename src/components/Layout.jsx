@@ -1,8 +1,10 @@
 import { NavLink, Outlet } from 'react-router-dom';
-import { LayoutDashboard, Code, ClipboardList, BookOpen, User, Bell } from 'lucide-react';
+import { LayoutDashboard, Code, ClipboardList, BookOpen, User, Bell, Search, History } from 'lucide-react';
 const Layout = () => {
   const navItems = [
     { name: 'Dashboard', path: '/dashboard', icon: <LayoutDashboard size={20} /> },
+    { name: 'Analyze', path: '/analyze', icon: <Search size={20} /> },
+    { name: 'History', path: '/history', icon: <History size={20} /> },
     { name: 'Practice', path: '/practice', icon: <Code size={20} /> },
     { name: 'Assessments', path: '/assessments', icon: <ClipboardList size={20} /> },
     { name: 'Resources', path: '/resources', icon: <BookOpen size={20} /> },
