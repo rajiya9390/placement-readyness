@@ -1,0 +1,33 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+build_log.txt
+build_log_fixed.txt
+build_log_v2.txt
+build_log_v3.txt
+
+# Dependency directories
+node_modules/
+
+# Build artifacts
+dist/
+dist-ssr/
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary files
+fix-utf8.cjs
+vanilla-backup/

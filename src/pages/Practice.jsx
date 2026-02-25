@@ -1,0 +1,1 @@
+const Practice = () => <div>Practice Problems</div>; export default Practice;

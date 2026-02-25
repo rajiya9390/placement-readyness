@@ -1,0 +1,4 @@
+@import "tailwindcss";
+:root { --primary: hsl(245, 58%, 51%); }
+@theme { --color-primary: var(--primary); }
+body { margin: 0; font-family: sans-serif; }

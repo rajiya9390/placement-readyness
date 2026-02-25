@@ -1,0 +1,1 @@
+const Assessments = () => <div>Assessments</div>; export default Assessments;

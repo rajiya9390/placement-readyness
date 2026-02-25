@@ -1,135 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KodNest Premium Build System</title>
-    <meta name="description" content="A calm, intentional, and confident premium SaaS build system for modern B2C products.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Placement Prep</title>
 </head>
+
 <body>
-    <header class="top-bar">
-        <div class="top-bar__left">
-            <span class="brand">KodNest Premium</span>
-        </div>
-        <div class="top-bar__center">
-            <div class="progress-indicator">
-                <span class="progress-indicator__label">Step 01 / 04</span>
-                <div class="progress-indicator__bar">
-                    <div class="progress-indicator__fill" style="width: 25%;"></div>
-                </div>
-            </div>
-        </div>
-        <div class="top-bar__right">
-            <span class="status-badge status-badge--in-progress">In Progress</span>
-        </div>
-    </header>
-
-    <main class="page-container">
-        <section class="context-header">
-            <h1 class="context-header__title">Design System Foundation</h1>
-            <p class="context-header__subtext">Establish the core visual language for your premium SaaS application.</p>
-        </section>
-
-        <div class="layout-grid">
-            <section class="primary-workspace">
-                <div class="card">
-                    <div class="card__header">
-                        <h2 class="card__title">Visual Components</h2>
-                    </div>
-                    <div class="card__content">
-                        <div class="component-showcase">
-                            <div class="showcase-item">
-                                <label class="label">Primary Button</label>
-                                <button class="btn btn--primary">Create New Project</button>
-                            </div>
-                            <div class="showcase-item">
-                                <label class="label">Secondary Button</label>
-                                <button class="btn btn--secondary">View Documentation</button>
-                            </div>
-                            <div class="showcase-item">
-                                <label class="label">Text Input</label>
-                                <input type="text" class="input" placeholder="Project name...">
-                            </div>
-                            <div class="showcase-item">
-                                <label class="label">Success State</label>
-                                <div class="badge badge--success">Build Successful</div>
-                            </div>
-                            <div class="showcase-item">
-                                <label class="label">Warning State</label>
-                                <div class="badge badge--warning">Update Required</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="empty-state">
-                    <h3 class="empty-state__title">No active builds</h3>
-                    <p class="empty-state__text">Start by selecting a component from the secondary panel to begin building.</p>
-                    <button class="btn btn--primary">Initialize Build</button>
-                </div>
-            </section>
-
-            <aside class="secondary-panel">
-                <div class="panel-section">
-                    <h3 class="panel-section__title">Step Explanation</h3>
-                    <p class="panel-section__text">Configure your project's initial state by providing a clear name and selecting the primary color palette.</p>
-                </div>
-
-                <div class="panel-section">
-                    <h3 class="panel-section__title">AI Prompt</h3>
-                    <div class="prompt-box">
-                        <code class="prompt-box__content">Design a premium dashboard with a calm, intentional aesthetic using the KodNest design system guidelines.</code>
-                        <button class="btn btn--copy" id="copy-prompt">Copy</button>
-                    </div>
-                </div>
-
-                <div class="panel-actions">
-                    <button class="btn btn--primary btn--full">Build in Lovable</button>
-                    <button class="btn btn--secondary btn--full">It Worked</button>
-                    <button class="btn btn--secondary btn--full color-error">Error Found</button>
-                    <button class="btn btn--secondary btn--full">Add Screenshot</button>
-                </div>
-            </aside>
-        </div>
-    </main>
-
-    <footer class="proof-footer">
-        <div class="checklist">
-            <div class="checklist__item">
-                <input type="checkbox" id="ui-built" class="checklist__checkbox">
-                <label for="ui-built">UI Built</label>
-                <div class="checklist__proof" id="proof-ui">
-                    <input type="text" placeholder="Enter proof URL or notes...">
-                </div>
-            </div>
-            <div class="checklist__item">
-                <input type="checkbox" id="logic-working" class="checklist__checkbox">
-                <label for="logic-working">Logic Working</label>
-                <div class="checklist__proof" id="proof-logic">
-                    <input type="text" placeholder="Enter proof URL or notes...">
-                </div>
-            </div>
-            <div class="checklist__item">
-                <input type="checkbox" id="test-passed" class="checklist__checkbox">
-                <label for="test-passed">Test Passed</label>
-                <div class="checklist__proof" id="proof-test">
-                    <input type="text" placeholder="Enter proof URL or notes...">
-                </div>
-            </div>
-            <div class="checklist__item">
-                <input type="checkbox" id="deployed" class="checklist__checkbox">
-                <label for="deployed">Deployed</label>
-                <div class="checklist__proof" id="proof-deploy">
-                    <input type="text" placeholder="Enter deployment link...">
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <script src="main.js"></script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
 </body>
+
 </html>
